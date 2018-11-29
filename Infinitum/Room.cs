@@ -8,6 +8,8 @@ namespace Infinitum
 {
     class Room
     {
+        public string Name { get; set; }
+        public string Description { get; set; }
         public int X { get; private set; }
         public int Y { get; private set; }
 
