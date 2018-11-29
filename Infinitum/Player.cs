@@ -21,8 +21,8 @@ namespace Infinitum
 
         public override void Update()
         {
-            GetInput();
             DisplayRoom();
+            GetInput();
         }
     }
 }
